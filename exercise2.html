@@ -3,7 +3,7 @@
 </h1>
 
 <h2>
-    2a.
+    2a. Uber
 </h2>
 
 <button class="uber">
@@ -12,26 +12,47 @@
 
 <style>
     .uber {
+        background-color: black;
+        color: white;
+        border: none;
+        height: 45px;
+        width: 150px;
+        font-style: normal;
+        cursor: pointer;
+        transition: opacity 0.15s;
+    }
 
+    .uber:hover {
+        opacity: 0.7;
     }
 </style>
 
 <h2>
-    2b.
+    2b. Amazon
 </h2>
 
-<button class="amazon">
-    Amazon
+<button class="add">
+    Add to Cart
 </button>
 
 <style>
-    .amazon {
+    .add {
+        background-color: rgb(255,216,20);
+        border: none;
+        height: 40px;
+        width: 205px;
+        font-size: large;
+        border-radius: 40px;
+        cursor: pointer;
+    }
 
+    .add:hover {
+        background-color: rgb(245, 205, 3);
     }
 </style>
 
 <h2>
-    2c.
+    2c. GitHub
 </h2>
 
 <button class="github">
@@ -40,16 +61,72 @@
 
 <style>
     .github {
+        background-color: rgb(46,164,79);
+        color: white;
+        border: none;
+        height: 40px;
+        width: 90px;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: box-shadow 0.15s;
+    }
 
+    .github:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15)
     }
 </style>
 
 <h2>
-    2d.
+    2d. Bootstrap
 </h2>
 
-<button>
-    
+<button class="start">
+    Get Started
 </button>
+
+<button class="down">
+    Download
+</button>
+
+<style>
+    .start {
+        background-color: rgb(121, 82, 179);
+        height: 45px;
+        width: 110px;
+        border: none;
+        font-weight: bold;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        margin-right: 5px;
+        transition: background-color .15s;
+    }
+
+    .start:hover {
+        background-color: rgb(100, 60, 168);
+    }
+
+    .down {
+        background-color: white;
+        color: rgb(108, 117, 125);
+        height: 45px;
+        width: 110px;
+        border-radius: 5px;
+        border-color: rgb(108, 117, 125);
+        border-width: 1px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color .10s;
+        transition: color .10s;
+    }
+
+    .down:hover {
+        background-color: rgb(108, 117, 125);
+        color: white;
+    }
+</style>
+
+
 
 <button><a href="index.html">Go Back</a></button>
