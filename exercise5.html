@@ -121,28 +121,140 @@
     5e.
 </h2>
 
-<p>New</p>
-<p>Macbook Pro</p>
-<p>Supercharged for Pros</p>
-<p>From $1999</p>
-<button>Buy</button>
+<p class="n">
+    New
+</p>
+<p class="pro">
+    Macbook Pro
+</p>
+<p class="pros">
+    Supercharged for Pros
+</p>
+<p class="price">
+    From $1999
+</p>
+
+<div class="container">
+    <button class="b">
+        Buy
+    </button>
+</div>
+
+<style>
+    .n,
+    .pro,
+    .pros,
+    .price {
+        font-family: Arial;
+        text-align: center;
+    }
+
+    .n {
+        color: darkgoldenrod;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .pro {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .pros {
+        font-size: 28px;
+        font-weight: bolder;
+        margin-bottom: 10px;
+    }
+
+    .price {
+        margin-bottom: 10px;
+    }
+
+    .b {
+        font-family: Arial;
+        color: white;
+        background-color: blue;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .container {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+</style>
 
 <h2>
     5f.
 </h2>
 
-<p>1,049.61 USD</p>
-<p>+18.05 (1.75%) today</p>
-<p>After hours 1,048.00 -1.61 (0.15%)</p>
+<p><span class="num1">1,049.61</span> USD</p>
+<p class="today">+18.05 (1.75%) today</p>
+<p>After hours 1,048.00 <span class="num2">-1.61 (0.15%)</span> </p>
+
+<style>
+    .num1 {
+        font-family: Arial;
+        font-size: x-large;
+    }
+
+    .today {
+        font-family: Arial;
+        color: green;
+    }
+
+    .num2 {
+        font-family: Arial;
+        color: red;
+    }
+</style>
 
 <h2>
     5g.
 </h2>
 
-<p>freeCodeCamp.org @freeCodeCamp 1h</p>
-<p>As a web developer, you'll want to make your projects easy to use and navigate around.</p>
-<p>Here @chp_it outlines the top skills new developers should have.</p>
+<p>
+    <span class="web">freeCodeCamp.org</span> <span class="user">@freeCodeCamp 1h</span>
+</p>
+<p class="desc">
+    As a web developer, you'll want to make your projects easy to use and navigate around.
+</p>
+<p>
+    Here <span class="use">@chp_it</span> outlines the top skills new developers should have.
+</p>
 
-<p>Note: The number's 5e - 5g will be coded, mainly on CSS or styles shortly.</p>
+<style>
+    .web,
+    .user,
+    .desc,
+    .use {
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .web {
+        font-weight: bold;
+    }
+
+    .user {
+        color: grey;
+    }
+
+    .desc {
+        font-style: normal;
+    }
+
+    .use {
+        color: blue;
+    }
+</style>
 
 <button><a href="index.html">Go Back</a></button>
