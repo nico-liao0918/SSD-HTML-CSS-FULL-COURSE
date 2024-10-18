@@ -1,0 +1,21 @@
+/* Exercise 7 CSS */
+
+.cat1 {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.cat2 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cat3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    object-fit: cover;
+    object-position: center;
+}
