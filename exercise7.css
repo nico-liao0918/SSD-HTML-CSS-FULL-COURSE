@@ -19,3 +19,86 @@
     object-fit: cover;
     object-position: center;
 }
+
+.round {
+    width: 200px;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.google {
+    width: 300px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.20);
+    border: none;
+    border-radius: 20px;
+    margin: 12px;
+    padding: 12px;
+
+}
+
+.e {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.email {
+    font-size: 18px;
+    width: 300px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: grey;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.pp {
+    font-size: 18px;
+    margin-bottom: 22px;
+}
+
+.aj {
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 20px;
+    width: 400px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.cat4 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+    align-content: center;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.tweet {
+    border: none;
+    font-size: 19px;
+    width: 200px;
+    vertical-align: middle;
+}
+
+.t {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    vertical-align: middle;
+    cursor: pointer;
+}
