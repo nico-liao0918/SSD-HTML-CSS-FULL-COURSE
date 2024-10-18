@@ -1,0 +1,28 @@
+/* Exercise 6 CSS */
+
+body main div {
+    margin: 5px;
+    padding: 10px;
+}
+body main div p {
+    font-family: "Montserrat";
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: 0;
+}
+
+.m {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.order {
+    text-align: center;
+}
+
+.touch {
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
