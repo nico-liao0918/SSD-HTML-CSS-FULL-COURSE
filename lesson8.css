@@ -1,0 +1,24 @@
+/* Lesson 8 CSS */
+
+.thumbnail-1 {
+    width: 300px;
+    display: block;
+}
+
+.search {
+    font-size: 10px;
+    margin-left: 12px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+    width: 280px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.author {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+}
